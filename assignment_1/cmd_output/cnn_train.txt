@@ -1,0 +1,514 @@
+ & C:/Python311/python.exe "c:/Users/Daniel/OneDrive - TU Wien/Uni/8. Semester/DLVC/repo/assignment_1/train_yourCNN.py"
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Appending key for api.wandb.ai to your netrc file: C:\Users\Daniel\_netrc
+wandb: Currently logged in as: danielzab (danielzab-tu-wien) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.9
+wandb: Run data is saved locally in C:\Users\Daniel\OneDrive - TU Wien\Uni\8. Semester\DLVC\repo\assignment_1\wandb\run-20250413_215451-f8m9s08y
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run balmy-sky-4
+wandb:  View project at https://wandb.ai/danielzab-tu-wien/DLVC
+wandb:  View run at https://wandb.ai/danielzab-tu-wien/DLVC/runs/f8m9s08y
+Training epoch 0:
+Loss: 2.1847183811017117
+Mean accuracy: 0.26135
+Accuracy for class plane: 0.4641244355243352
+Accuracy for class car: 0.2907676869041646
+Accuracy for class bird: 0.009634387351778656
+Accuracy for class cat: 0.0409136546184739
+Accuracy for class deer: 0.10567074693979515
+Accuracy for class dog: 0.2988679245283019
+Accuracy for class frog: 0.3888059701492537
+Accuracy for class horse: 0.28013919960228684
+Accuracy for class ship: 0.31473605203902927
+Accuracy for class truck: 0.42332830568124685
+Validation epoch 0:
+Loss: 2.1239644455004343
+Mean accuracy: 0.26135
+Accuracy for class plane: 0.4641244355243352
+Accuracy for class car: 0.2907676869041646
+Accuracy for class bird: 0.009634387351778656
+Accuracy for class cat: 0.0409136546184739
+Accuracy for class deer: 0.10567074693979515
+Accuracy for class dog: 0.2988679245283019
+Accuracy for class frog: 0.3888059701492537
+Accuracy for class horse: 0.28013919960228684
+Accuracy for class ship: 0.31473605203902927
+Accuracy for class truck: 0.42332830568124685
+Training epoch 1:
+Loss: 2.083810869116372
+Mean accuracy: 0.373025
+Accuracy for class plane: 0.4513296537882589
+Accuracy for class car: 0.44656297039638737
+Accuracy for class bird: 0.18972332015810275
+Accuracy for class cat: 0.22389558232931728
+Accuracy for class deer: 0.18835873095178615
+Accuracy for class dog: 0.31572327044025156
+Accuracy for class frog: 0.490547263681592
+Accuracy for class horse: 0.4543872731792195
+Accuracy for class ship: 0.48111083312484365
+Accuracy for class truck: 0.49019607843137253
+Training epoch 2:
+Loss: 2.035388251082204
+Mean accuracy: 0.4231
+Accuracy for class plane: 0.4706472654290015
+Accuracy for class car: 0.5130456598093327
+Accuracy for class bird: 0.30113636363636365
+Accuracy for class cat: 0.3092369477911647
+Accuracy for class deer: 0.2355733200099925
+Accuracy for class dog: 0.3340880503144654
+Accuracy for class frog: 0.5579601990049752
+Accuracy for class horse: 0.4792443450161571
+Accuracy for class ship: 0.5088816612459345
+Accuracy for class truck: 0.521870286576169
+Training epoch 3:
+Loss: 2.006032033088489
+Mean accuracy: 0.452875
+Accuracy for class plane: 0.4932262920220773
+Accuracy for class car: 0.5709984947315605
+Accuracy for class bird: 0.3189229249011858
+Accuracy for class cat: 0.33910642570281124
+Accuracy for class deer: 0.27029727704221834
+Accuracy for class dog: 0.3418867924528302
+Accuracy for class frog: 0.572139303482587
+Accuracy for class horse: 0.5292070594084017
+Accuracy for class ship: 0.5519139354515887
+Accuracy for class truck: 0.5417295123177476
+Training epoch 4:
+Loss: 1.9838505975735454
+Mean accuracy: 0.475375
+Accuracy for class plane: 0.5045158053186152
+Accuracy for class car: 0.6184144505770196
+Accuracy for class bird: 0.3060770750988142
+Accuracy for class cat: 0.38403614457831325
+Accuracy for class deer: 0.3180114913814639
+Accuracy for class dog: 0.37257861635220124
+Accuracy for class frog: 0.5912935323383085
+Accuracy for class horse: 0.5356698980860055
+Accuracy for class ship: 0.5849387040280211
+Accuracy for class truck: 0.5394670688788336
+Training epoch 5:
+Loss: 1.9622586017218642
+Mean accuracy: 0.499325
+Accuracy for class plane: 0.5205720020070246
+Accuracy for class car: 0.6269443050677371
+Accuracy for class bird: 0.3631422924901186
+Accuracy for class cat: 0.3810240963855422
+Accuracy for class deer: 0.34274294279290535
+Accuracy for class dog: 0.3849056603773585
+Accuracy for class frog: 0.608457711442786
+Accuracy for class horse: 0.5577926920208799
+Accuracy for class ship: 0.6219664748561421
+Accuracy for class truck: 0.5864756158873806
+Validation epoch 5:
+Loss: 1.9660427298726915
+Mean accuracy: 0.499325
+Accuracy for class plane: 0.5205720020070246
+Accuracy for class car: 0.6269443050677371
+Accuracy for class bird: 0.3631422924901186
+Accuracy for class cat: 0.3810240963855422
+Accuracy for class deer: 0.34274294279290535
+Accuracy for class dog: 0.3849056603773585
+Accuracy for class frog: 0.608457711442786
+Accuracy for class horse: 0.5577926920208799
+Accuracy for class ship: 0.6219664748561421
+Accuracy for class truck: 0.5864756158873806
+Training epoch 6:
+Loss: 1.9431181689039967
+Mean accuracy: 0.5176
+Accuracy for class plane: 0.5260913196186653
+Accuracy for class car: 0.6547917711991972
+Accuracy for class bird: 0.3816699604743083
+Accuracy for class cat: 0.401355421686747
+Accuracy for class deer: 0.3902073444916313
+Accuracy for class dog: 0.39270440251572325
+Accuracy for class frog: 0.6196517412935323
+Accuracy for class horse: 0.5602783992045737
+Accuracy for class ship: 0.6637478108581436
+Accuracy for class truck: 0.5862242332830568
+Training epoch 7:
+Loss: 1.9251405377738393
+Mean accuracy: 0.535075
+Accuracy for class plane: 0.554942298043151
+Accuracy for class car: 0.6821374811841445
+Accuracy for class bird: 0.4019268774703557
+Accuracy for class cat: 0.40913654618473894
+Accuracy for class deer: 0.3909567824131901
+Accuracy for class dog: 0.4120754716981132
+Accuracy for class frog: 0.6293532338308457
+Accuracy for class horse: 0.5878697489435745
+Accuracy for class ship: 0.6800100075056292
+Accuracy for class truck: 0.6030668677727501
+Training epoch 8:
+Loss: 1.9103490407474506
+Mean accuracy: 0.5504
+Accuracy for class plane: 0.5792774711490216
+Accuracy for class car: 0.691921726041144
+Accuracy for class bird: 0.4189723320158103
+Accuracy for class cat: 0.42369477911646586
+Accuracy for class deer: 0.43867099675243565
+Accuracy for class dog: 0.4193710691823899
+Accuracy for class frog: 0.6281094527363185
+Accuracy for class horse: 0.5888640318170519
+Accuracy for class ship: 0.6962722041531149
+Accuracy for class truck: 0.6196581196581197
+Training epoch 9:
+Loss: 1.8954697413185535
+Mean accuracy: 0.565175
+Accuracy for class plane: 0.5893125940792775
+Accuracy for class car: 0.7052182639237331
+Accuracy for class bird: 0.44219367588932806
+Accuracy for class cat: 0.43649598393574296
+Accuracy for class deer: 0.4731451411441419
+Accuracy for class dog: 0.4319496855345912
+Accuracy for class frog: 0.6417910447761194
+Accuracy for class horse: 0.600795426298782
+Accuracy for class ship: 0.6965223917938453
+Accuracy for class truck: 0.6349924585218703
+Training epoch 10:
+Loss: 1.8831323674692513
+Mean accuracy: 0.578875
+Accuracy for class plane: 0.618665328650276
+Accuracy for class car: 0.7217762167586553
+Accuracy for class bird: 0.44441699604743085
+Accuracy for class cat: 0.43373493975903615
+Accuracy for class deer: 0.4941294029477892
+Accuracy for class dog: 0.4540880503144654
+Accuracy for class frog: 0.6477611940298508
+Accuracy for class horse: 0.6167039522744221
+Accuracy for class ship: 0.7082812109081812
+Accuracy for class truck: 0.6500754147812972
+Validation epoch 10:
+Loss: 1.899535539784009
+Mean accuracy: 0.578875
+Accuracy for class plane: 0.618665328650276
+Accuracy for class car: 0.7217762167586553
+Accuracy for class bird: 0.44441699604743085
+Accuracy for class cat: 0.43373493975903615
+Accuracy for class deer: 0.4941294029477892
+Accuracy for class dog: 0.4540880503144654
+Accuracy for class frog: 0.6477611940298508
+Accuracy for class horse: 0.6167039522744221
+Accuracy for class ship: 0.7082812109081812
+Accuracy for class truck: 0.6500754147812972
+Training epoch 11:
+Loss: 1.8676033774123024
+Mean accuracy: 0.59405
+Accuracy for class plane: 0.6394882087305569
+Accuracy for class car: 0.7383341695935776
+Accuracy for class bird: 0.47579051383399207
+Accuracy for class cat: 0.4470381526104418
+Accuracy for class deer: 0.4996252810392206
+Accuracy for class dog: 0.46817610062893084
+Accuracy for class frog: 0.6671641791044776
+Accuracy for class horse: 0.6204325130499627
+Accuracy for class ship: 0.7235426569927446
+Accuracy for class truck: 0.661639014580191
+Training epoch 12:
+Loss: 1.8581807312493126
+Mean accuracy: 0.604025
+Accuracy for class plane: 0.6470145509282489
+Accuracy for class car: 0.7428499749121926
+Accuracy for class bird: 0.49110671936758893
+Accuracy for class cat: 0.4334839357429719
+Accuracy for class deer: 0.523107669248064
+Accuracy for class dog: 0.48880503144654086
+Accuracy for class frog: 0.6800995024875622
+Accuracy for class horse: 0.6308724832214765
+Accuracy for class ship: 0.7435576682511884
+Accuracy for class truck: 0.6598793363499246
+Training epoch 13:
+Loss: 1.8457669507200345
+Mean accuracy: 0.6153
+Accuracy for class plane: 0.6653286502759659
+Accuracy for class car: 0.7483692925238334
+Accuracy for class bird: 0.4856719367588933
+Accuracy for class cat: 0.4578313253012048
+Accuracy for class deer: 0.5585810642018486
+Accuracy for class dog: 0.500125786163522
+Accuracy for class frog: 0.6708955223880597
+Accuracy for class horse: 0.6502609992542878
+Accuracy for class ship: 0.7368026019514636
+Accuracy for class truck: 0.6799899446958271
+Training epoch 14:
+Loss: 1.8321373051347825
+Mean accuracy: 0.631525
+Accuracy for class plane: 0.6793778223783241
+Accuracy for class car: 0.7591570496738586
+Accuracy for class bird: 0.5160573122529645
+Accuracy for class cat: 0.4696285140562249
+Accuracy for class deer: 0.5675743192605546
+Accuracy for class dog: 0.5064150943396226
+Accuracy for class frog: 0.695771144278607
+Accuracy for class horse: 0.6559781257767835
+Accuracy for class ship: 0.759819864898674
+Accuracy for class truck: 0.7061337355455003
+Training epoch 15:
+Loss: 1.8200309474628193
+Mean accuracy: 0.641875
+Accuracy for class plane: 0.6936778725539388
+Accuracy for class car: 0.7767185148018063
+Accuracy for class bird: 0.5207509881422925
+Accuracy for class cat: 0.48694779116465864
+Accuracy for class deer: 0.5795653260054959
+Accuracy for class dog: 0.5167295597484277
+Accuracy for class frog: 0.7024875621890547
+Accuracy for class horse: 0.6684066616952523
+Accuracy for class ship: 0.7710783087315487
+Accuracy for class truck: 0.7031171442936148
+Validation epoch 15:
+Loss: 1.8516190399097492
+Mean accuracy: 0.641875
+Accuracy for class plane: 0.6936778725539388
+Accuracy for class car: 0.7767185148018063
+Accuracy for class bird: 0.5207509881422925
+Accuracy for class cat: 0.48694779116465864
+Accuracy for class deer: 0.5795653260054959
+Accuracy for class dog: 0.5167295597484277
+Accuracy for class frog: 0.7024875621890547
+Accuracy for class horse: 0.6684066616952523
+Accuracy for class ship: 0.7710783087315487
+Accuracy for class truck: 0.7031171442936148
+Training epoch 16:
+Loss: 1.8083370428877517
+Mean accuracy: 0.654675
+Accuracy for class plane: 0.7067235323632715
+Accuracy for class car: 0.7865027596588058
+Accuracy for class bird: 0.529397233201581
+Accuracy for class cat: 0.4854417670682731
+Accuracy for class deer: 0.6035473394953784
+Accuracy for class dog: 0.5275471698113208
+Accuracy for class frog: 0.7181592039800995
+Accuracy for class horse: 0.6828237633606761
+Accuracy for class ship: 0.7768326244683512
+Accuracy for class truck: 0.730517848164907
+Training epoch 17:
+Loss: 1.7980648168740563
+Mean accuracy: 0.6644
+Accuracy for class plane: 0.7099849473156046
+Accuracy for class car: 0.7955343702960361
+Accuracy for class bird: 0.5471837944664032
+Accuracy for class cat: 0.4907128514056225
+Accuracy for class deer: 0.6085435923057707
+Accuracy for class dog: 0.5355974842767296
+Accuracy for class frog: 0.7407960199004975
+Accuracy for class horse: 0.6865523241362168
+Accuracy for class ship: 0.791343507630723
+Accuracy for class truck: 0.7383107088989442
+Training epoch 18:
+Loss: 1.7923932970522312
+Mean accuracy: 0.669525
+Accuracy for class plane: 0.7180130456598093
+Accuracy for class car: 0.7942799799297542
+Accuracy for class bird: 0.5654644268774703
+Accuracy for class cat: 0.5135542168674698
+Accuracy for class deer: 0.6182862852860355
+Accuracy for class dog: 0.5310691823899371
+Accuracy for class frog: 0.7435323383084577
+Accuracy for class horse: 0.6947551578424062
+Accuracy for class ship: 0.7830873154866149
+Accuracy for class truck: 0.7335344394167923
+Training epoch 19:
+Loss: 1.779329790855749
+Mean accuracy: 0.68405
+Accuracy for class plane: 0.7340692423482188
+Accuracy for class car: 0.8133467134972403
+Accuracy for class bird: 0.5788043478260869
+Accuracy for class cat: 0.5160642570281124
+Accuracy for class deer: 0.6315263552335748
+Accuracy for class dog: 0.560251572327044
+Accuracy for class frog: 0.7415422885572139
+Accuracy for class horse: 0.7079294059159831
+Accuracy for class ship: 0.8046034525894421
+Accuracy for class truck: 0.7528908999497235
+Training epoch 20:
+Loss: 1.773834841319928
+Mean accuracy: 0.68785
+Accuracy for class plane: 0.7227797290516809
+Accuracy for class car: 0.8110888108379327
+Accuracy for class bird: 0.5842391304347826
+Accuracy for class cat: 0.5223393574297188
+Accuracy for class deer: 0.6487634274294279
+Accuracy for class dog: 0.56
+Accuracy for class frog: 0.7557213930348259
+Accuracy for class horse: 0.7133979617201094
+Accuracy for class ship: 0.8036027020265198
+Accuracy for class truck: 0.756913021618904
+Validation epoch 20:
+Loss: 1.8299301877806458
+Mean accuracy: 0.68785
+Accuracy for class plane: 0.7227797290516809
+Accuracy for class car: 0.8110888108379327
+Accuracy for class bird: 0.5842391304347826
+Accuracy for class cat: 0.5223393574297188
+Accuracy for class deer: 0.6487634274294279
+Accuracy for class dog: 0.56
+Accuracy for class frog: 0.7557213930348259
+Accuracy for class horse: 0.7133979617201094
+Accuracy for class ship: 0.8036027020265198
+Accuracy for class truck: 0.756913021618904
+Training epoch 21:
+Loss: 1.758904416721088
+Mean accuracy: 0.704075
+Accuracy for class plane: 0.7531359759157049
+Accuracy for class car: 0.8248871048670346
+Accuracy for class bird: 0.5975790513833992
+Accuracy for class cat: 0.5454317269076305
+Accuracy for class deer: 0.664751436422683
+Accuracy for class dog: 0.5826415094339623
+Accuracy for class frog: 0.7577114427860696
+Accuracy for class horse: 0.7216007954262987
+Accuracy for class ship: 0.8213660245183888
+Accuracy for class truck: 0.7722473604826546
+Training epoch 22:
+Loss: 1.7563840036575025
+Mean accuracy: 0.704725
+Accuracy for class plane: 0.7383341695935776
+Accuracy for class car: 0.8344204716507777
+Accuracy for class bird: 0.5938735177865613
+Accuracy for class cat: 0.5579819277108434
+Accuracy for class deer: 0.6630027479390457
+Accuracy for class dog: 0.5916981132075472
+Accuracy for class frog: 0.7694029850746269
+Accuracy for class horse: 0.7220979368630376
+Accuracy for class ship: 0.8086064548411308
+Accuracy for class truck: 0.7684766214177979
+Training epoch 23:
+Loss: 1.749162499516155
+Mean accuracy: 0.713325
+Accuracy for class plane: 0.7471149021575514
+Accuracy for class car: 0.8273958855995986
+Accuracy for class bird: 0.6074604743083004
+Accuracy for class cat: 0.5652610441767069
+Accuracy for class deer: 0.67949038221334
+Accuracy for class dog: 0.5949685534591195
+Accuracy for class frog: 0.7803482587064676
+Accuracy for class horse: 0.738255033557047
+Accuracy for class ship: 0.8171128346259695
+Accuracy for class truck: 0.7762694821518351
+Training epoch 24:
+Loss: 1.7422375519054767
+Mean accuracy: 0.719675
+Accuracy for class plane: 0.7548921224284998
+Accuracy for class car: 0.8371801304565981
+Accuracy for class bird: 0.6175889328063241
+Accuracy for class cat: 0.580070281124498
+Accuracy for class deer: 0.6912315763177617
+Accuracy for class dog: 0.5962264150943396
+Accuracy for class frog: 0.7703980099502488
+Accuracy for class horse: 0.7452150136713895
+Accuracy for class ship: 0.8268701526144608
+Accuracy for class truck: 0.777526395173454
+Training epoch 25:
+Loss: 1.737542966303353
+Mean accuracy: 0.724025
+Accuracy for class plane: 0.7579026593075765
+Accuracy for class car: 0.8341695935775213
+Accuracy for class bird: 0.6212944664031621
+Accuracy for class cat: 0.5883534136546185
+Accuracy for class deer: 0.6887334499125656
+Accuracy for class dog: 0.6128301886792453
+Accuracy for class frog: 0.7850746268656716
+Accuracy for class horse: 0.7496892866020383
+Accuracy for class ship: 0.8216162121591193
+Accuracy for class truck: 0.7810457516339869
+Validation epoch 25:
+Loss: 1.817872032334533
+Mean accuracy: 0.724025
+Accuracy for class plane: 0.7579026593075765
+Accuracy for class car: 0.8341695935775213
+Accuracy for class bird: 0.6212944664031621
+Accuracy for class cat: 0.5883534136546185
+Accuracy for class deer: 0.6887334499125656
+Accuracy for class dog: 0.6128301886792453
+Accuracy for class frog: 0.7850746268656716
+Accuracy for class horse: 0.7496892866020383
+Accuracy for class ship: 0.8216162121591193
+Accuracy for class truck: 0.7810457516339869
+Training epoch 26:
+Loss: 1.7288859701765993
+Mean accuracy: 0.732925
+Accuracy for class plane: 0.768941294530858
+Accuracy for class car: 0.8432012042147516
+Accuracy for class bird: 0.6235177865612648
+Accuracy for class cat: 0.5835843373493976
+Accuracy for class deer: 0.7012240819385461
+Accuracy for class dog: 0.6140880503144655
+Accuracy for class frog: 0.7935323383084577
+Accuracy for class horse: 0.7745463584389759
+Accuracy for class ship: 0.8346259694771079
+Accuracy for class truck: 0.792357968828557
+Training epoch 27:
+Loss: 1.7265065127668289
+Mean accuracy: 0.73565
+Accuracy for class plane: 0.7644254892122428
+Accuracy for class car: 0.8484696437531359
+Accuracy for class bird: 0.6316699604743083
+Accuracy for class cat: 0.6029116465863453
+Accuracy for class deer: 0.7037222083437422
+Accuracy for class dog: 0.6319496855345912
+Accuracy for class frog: 0.78681592039801
+Accuracy for class horse: 0.7593835446184439
+Accuracy for class ship: 0.8303727795846885
+Accuracy for class truck: 0.7973856209150327
+Training epoch 28:
+Loss: 1.7199571285004052
+Mean accuracy: 0.741725
+Accuracy for class plane: 0.7842448569994982
+Accuracy for class car: 0.8429503261414952
+Accuracy for class bird: 0.6504446640316206
+Accuracy for class cat: 0.6061746987951807
+Accuracy for class deer: 0.7174619035723208
+Accuracy for class dog: 0.6332075471698113
+Accuracy for class frog: 0.7741293532338308
+Accuracy for class horse: 0.7745463584389759
+Accuracy for class ship: 0.840630472854641
+Accuracy for class truck: 0.7938662644544997
+Training epoch 29:
+Loss: 1.7107677254052207
+Mean accuracy: 0.7508
+Accuracy for class plane: 0.7782237832413447
+Accuracy for class car: 0.859257400903161
+Accuracy for class bird: 0.64649209486166
+Accuracy for class cat: 0.6290160642570282
+Accuracy for class deer: 0.7314514114414189
+Accuracy for class dog: 0.6347169811320754
+Accuracy for class frog: 0.8054726368159204
+Accuracy for class horse: 0.7738006462838678
+Accuracy for class ship: 0.8426319739804854
+Accuracy for class truck: 0.8074409250879839
+Validation epoch 29:
+Loss: 1.808169986628279
+Mean accuracy: 0.7508
+Accuracy for class plane: 0.7782237832413447
+Accuracy for class car: 0.859257400903161
+Accuracy for class bird: 0.64649209486166
+Accuracy for class cat: 0.6290160642570282
+Accuracy for class deer: 0.7314514114414189
+Accuracy for class dog: 0.6347169811320754
+Accuracy for class frog: 0.8054726368159204
+Accuracy for class horse: 0.7738006462838678
+Accuracy for class ship: 0.8426319739804854
+Accuracy for class truck: 0.8074409250879839
+wandb:
+wandb:
+wandb: Run history:
+wandb:      training_avg_loss █▇▆▅▅▅▄▄▄▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁
+wandb:      training_mean_acc ▁▃▃▄▄▄▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇██████
+wandb:   training_mean_pc_acc ▁▃▃▄▄▄▅▅▅▅▆▆▆▆▆▆▇▇▇▇▇▇▇▇██████
+wandb:    validation_avg_loss █▄▃▂▁▁
+wandb:    validation_mean_acc ▁▅▆▇▇█
+wandb: validation_mean_pc_acc ▁▅▆▇▇█
+wandb:
+wandb: Run summary:
+wandb:      training_avg_loss 535.4703
+wandb:      training_mean_acc 0.7508
+wandb:   training_mean_pc_acc 0.75085
+wandb:    validation_avg_loss 143.61189
+wandb:    validation_mean_acc 0.72403
+wandb: validation_mean_pc_acc 0.72407
+wandb:
+wandb:  View run f8m9s08y at: https://wandb.ai/danielzab-tu-wien/DLVC/runs/f8m9s08y
+wandb:  View project at: https://wandb.ai/danielzab-tu-wien/DLVC
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20250413_215451-f8m9s08y\logs
+                                                                    

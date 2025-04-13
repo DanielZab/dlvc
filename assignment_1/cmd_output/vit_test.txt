@@ -1,0 +1,14 @@
+& C:/Python311/python.exe "c:/Users/Daniel/OneDrive - TU Wien/Uni/8. Semester/DLVC/repo/assignment_1/test_yourViT.py" 
+Results:
+Loss: 1.8597086471847342
+Mean accuracy: 0.4742
+Accuracy for class plane: 0.537
+Accuracy for class car: 0.649
+Accuracy for class bird: 0.302
+Accuracy for class cat: 0.55
+Accuracy for class deer: 0.387
+Accuracy for class dog: 0.183
+Accuracy for class frog: 0.548
+Accuracy for class horse: 0.479
+Accuracy for class ship: 0.597
+Accuracy for class truck: 0.51

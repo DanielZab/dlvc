@@ -1,0 +1,14 @@
+C:/Python311/python.exe "c:/Users/Daniel/OneDrive - TU Wien/Uni/8. Semester/DLVC/repo/assignment_1/test_resnet18.py"
+Results:
+Loss: 1.4840584948093076
+Mean accuracy: 0.6983
+Accuracy for class plane: 0.833
+Accuracy for class car: 0.755
+Accuracy for class bird: 0.537
+Accuracy for class cat: 0.529
+Accuracy for class deer: 0.657
+Accuracy for class dog: 0.606
+Accuracy for class frog: 0.756
+Accuracy for class horse: 0.782
+Accuracy for class ship: 0.748
+Accuracy for class truck: 0.78

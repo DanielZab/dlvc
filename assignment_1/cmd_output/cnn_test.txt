@@ -1,0 +1,15 @@
+& C:/Python311/python.exe "c:/Users/Daniel/OneDrive - TU Wien/Uni/8. Semester/DLVC/repo/assignment_1/test_yourCNN.py"
+Results:
+Loss: 1.8059795174417617
+Mean accuracy: 0.6534
+Accuracy for class plane: 0.759
+Accuracy for class car: 0.81
+Accuracy for class bird: 0.487
+Accuracy for class cat: 0.439
+Accuracy for class deer: 0.613
+Accuracy for class dog: 0.593
+Accuracy for class frog: 0.65
+Accuracy for class horse: 0.799
+Accuracy for class ship: 0.716
+Accuracy for class truck: 0.668
+                                     
