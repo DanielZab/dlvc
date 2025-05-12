@@ -6,6 +6,7 @@
 # specify from where you got the code and integrate it into this code repository so that 
 # you can run the model with this code
 
+# Some parts of code are taken from the excercise of another lecture
 
 import math
 from functools import partial
@@ -249,75 +250,3 @@ class VisionTransformer(nn.Module):
         x = self.mlp_head(x)
         out = torch.sigmoid(x)
         return out
-
-    """
-    def get_last_selfattention(self, x):
-        x = self.prepare_tokens(x)
-        for i, blk in enumerate(self.blocks):
-            if i < len(self.blocks) - 1:
-                x = blk(x)
-            else:
-                # return attention of the last block
-                return blk(x, return_attention=True)
-
-    def predict(self, dataloader, device):
-        """"""Predict all samples from a dataloader
-
-        Args:
-            dataloader (torch.utils.data.dataloader.DataLoader): PyTorch Dataloader
-            device (torch.device or str): "cpu" or "cuda"
-
-        Returns:
-            dataframe (pandas dataframe): Table of all predictions
-            accuracy (float): Percentage of correct predictions
-        """"""
-
-        array_score = []
-        acc = 0
-
-        self.eval()
-
-        for _, (data, label) in enumerate(dataloader, 0):
-            data = data.to(device)
-            label = label.to(device)
-            predictions_raw = self.forward(data)
-
-            predictions_raw_numpy = predictions_raw[:, 0].cpu().detach().numpy()
-            predictions = predictions_raw_numpy.copy()
-            predictions = predictions > 0.5
-
-            for i_pred, pred in enumerate(predictions):
-                if int(predictions[i_pred]) == int(label[i_pred].cpu().numpy()):
-                    correct = bcolors.OKGREEN + "✔" + bcolors.ENDC
-                else:
-                    correct = bcolors.FAIL + "✖" + bcolors.ENDC
-
-                if pred == False:
-                    array_score.append(
-                        [
-                            "Circle",
-                            int(predictions[i_pred]),
-                            round(predictions_raw_numpy[i_pred], 3),
-                            int(label[i_pred].cpu().numpy()),
-                            correct,
-                        ]
-                    )
-                elif pred == True:
-                    array_score.append(
-                        [
-                            "Square",
-                            int(predictions[i_pred]),
-                            round(predictions_raw_numpy[i_pred], 3),
-                            int(label[i_pred].cpu().numpy()),
-                            correct,
-                        ]
-                    )
-
-            acc += np.average((label.cpu().numpy() - predictions) == 0)
-
-        dataframe = pd.DataFrame(
-            array_score, columns=["class", "Pred", "RAW_Pred", "GT", "Correct?"]
-        )
-
-        return dataframe, acc / len(dataloader)
-"""
