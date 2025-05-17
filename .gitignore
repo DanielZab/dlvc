@@ -1,3 +1,9 @@
 cifar-10-python
 .vscode
 __pycache__
+.pth
+.gz
+oxford
+city
+wandb
+saved_models

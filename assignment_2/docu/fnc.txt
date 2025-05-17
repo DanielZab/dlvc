@@ -1,0 +1,170 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Appending key for api.wandb.ai to your netrc file: C:\Users\Daniel\_netrc
+wandb: Currently logged in as: danielzab (danielzab-tu-wien) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+Starting training for pretrained model
+wandb: Tracking run with wandb version 0.19.9
+wandb: Run data is saved locally in C:\Users\Daniel\OneDrive - TU Wien\Uni\8. Semester\DLVC\repo\assignment_2\wandb\run-20250516_183430-yfaoe5l9
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run pleasant-fog-34
+wandb:  View project at https://wandb.ai/danielzab-tu-wien/DLVC
+wandb:  View run at https://wandb.ai/danielzab-tu-wien/DLVC/runs/yfaoe5l9
+Training epoch 0:
+Loss: 0.5563461461971546
+Mean mIoU: 0.4793718159198761
+Validation epoch 0:
+Loss: 0.43358537040907763
+Mean mIoU: 0.5422742962837219
+Training epoch 1:
+Loss: 0.36615314360322626
+Mean mIoU: 0.5899163484573364
+Training epoch 2:
+Loss: 0.30086897159444875
+Mean mIoU: 0.6503036022186279
+Validation epoch 2:
+Loss: 0.3572462499141693
+Mean mIoU: 0.6371056437492371
+Training epoch 3:
+Loss: 0.261865001043369
+Mean mIoU: 0.6884543299674988
+Training epoch 4:
+Loss: 0.24023447571129636
+Mean mIoU: 0.7100072503089905
+Validation epoch 4:
+Loss: 0.342693194233138
+Mean mIoU: 0.6582005620002747
+Training epoch 5:
+Loss: 0.2197389823609385
+Mean mIoU: 0.7292374968528748
+Training epoch 6:
+Loss: 0.20604761844051295
+Mean mIoU: 0.7425394654273987
+Validation epoch 6:
+Loss: 0.3714871771376708
+Mean mIoU: 0.6641793847084045
+Training epoch 7:
+Loss: 0.19966161507984687
+Mean mIoU: 0.7479799389839172
+Training epoch 8:
+Loss: 0.19376350348365717
+Mean mIoU: 0.7541499137878418
+Validation epoch 8:
+Loss: 0.35496614565109386
+Mean mIoU: 0.6747660040855408
+Training epoch 9:
+Loss: 0.18329088184340248
+Mean mIoU: 0.7643139958381653
+Training epoch 10:
+Loss: 0.17389356190788335
+Mean mIoU: 0.7733964323997498
+Validation epoch 10:
+Loss: 0.3674510568380356
+Mean mIoU: 0.6781044602394104
+Training epoch 11:
+Loss: 0.1673857150920506
+Mean mIoU: 0.7802698016166687
+Training epoch 12:
+Loss: 0.16319193947931815
+Mean mIoU: 0.7840309143066406
+Validation epoch 12:
+Loss: 0.3804833909560894
+Mean mIoU: 0.6827831268310547
+Training epoch 13:
+Loss: 0.1602340412550959
+Mean mIoU: 0.786912739276886
+Training epoch 14:
+Loss: 0.15865529379967985
+Mean mIoU: 0.7881690859794617
+Validation epoch 14:
+Loss: 0.38044791591578514
+Mean mIoU: 0.6868975758552551
+Training epoch 15:
+Loss: 0.15583876648853565
+Mean mIoU: 0.7912036776542664
+Training epoch 16:
+Loss: 0.15351402528327088
+Mean mIoU: 0.7941647171974182
+Validation epoch 16:
+Loss: 0.40690730666292124
+Mean mIoU: 0.6795559525489807
+Training epoch 17:
+Loss: 0.16217211094395867
+Mean mIoU: 0.7854571342468262
+Training epoch 18:
+Loss: 0.27018397738193645
+Mean mIoU: 0.7019278407096863
+Validation epoch 18:
+Loss: 0.3993109767806941
+Mean mIoU: 0.6269235014915466
+Training epoch 19:
+Loss: 0.26102845704761046
+Mean mIoU: 0.699467122554779
+Training epoch 20:
+Loss: 0.21367279851231083
+Mean mIoU: 0.7377254962921143
+Validation epoch 20:
+Loss: 0.3411387562237937
+Mean mIoU: 0.6775551438331604
+Training epoch 21:
+Loss: 0.17922341155594793
+Mean mIoU: 0.7688820958137512
+Training epoch 22:
+Loss: 0.15992168182956762
+Mean mIoU: 0.7881134152412415
+Validation epoch 22:
+Loss: 0.360603416788167
+Mean mIoU: 0.6913135647773743
+Training epoch 23:
+Loss: 0.14985615785779624
+Mean mIoU: 0.7981740832328796
+Training epoch 24:
+Loss: 0.14427104027106843
+Mean mIoU: 0.8040468692779541
+Validation epoch 24:
+Loss: 0.38533679627138995
+Mean mIoU: 0.6927381157875061
+Training epoch 25:
+Loss: 0.1405562588880802
+Mean mIoU: 0.8079838156700134
+Training epoch 26:
+Loss: 0.1384669553873868
+Mean mIoU: 0.8095517158508301
+Validation epoch 26:
+Loss: 0.4004511088132858
+Mean mIoU: 0.6923988461494446
+Training epoch 27:
+Loss: 0.13731223331957026
+Mean mIoU: 0.8106768131256104
+Training epoch 28:
+Loss: 0.1353354532400082
+Mean mIoU: 0.8130380511283875
+Validation epoch 28:
+Loss: 0.407004916462405
+Mean mIoU: 0.6925702095031738
+Training epoch 29:
+Loss: 0.13319599538527685
+Mean mIoU: 0.8154669404029846
+Training epoch 30:
+Loss: 0.1306808775868909
+Mean mIoU: 0.8178205490112305
+Validation epoch 30:
+Loss: 0.42286867160221625
+Mean mIoU: 0.6960093379020691
+Validation epoch 30:
+Loss: 0.42219891373453466
+Mean mIoU: 0.6960093379020691
+wandb:
+wandb:
+wandb: Run history:
+wandb:   training_avg_loss █▅▄▃▃▂▂▂▂▂▂▂▂▁▁▁▁▂▃▃▂▂▁▁▁▁▁▁▁▁▁
+wandb: validation_avg_loss █▂▁▃▂▃▄▄▆▅▁▂▄▅▆▇
+wandb: validation_mean_IoU ▁▁▅▅▆▆▇▇▇▇▇▇▇▇██▇▇▅▅▇▇█████████
+wandb:
+wandb: Run summary:
+wandb:   training_avg_loss 7.57949
+wandb: validation_avg_loss 24.52638
+wandb: validation_mean_IoU 0.69601
+wandb:
+wandb:  View run yfaoe5l9 at: https://wandb.ai/danielzab-tu-wien/DLVC/runs/yfaoe5l9
+wandb:  View project at: https://wandb.ai/danielzab-tu-wien/DLVC
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20250516_183430-yfaoe5l9\logs

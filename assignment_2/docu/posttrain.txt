@@ -1,0 +1,205 @@
+Training epoch 0:
+Loss: 0.6729226585092216
+Mean mIoU: 0.4278012216091156
+Validation epoch 0:
+Loss: 0.5796341762460512
+Mean mIoU: 0.46038201451301575
+Training epoch 1:
+Loss: 0.5350292432924797     
+Mean mIoU: 0.5084360837936401
+Training epoch 2:
+Loss: 0.47467258264278545    
+Mean mIoU: 0.5528941750526428
+Validation epoch 2:
+Loss: 0.5142478418761286     
+Mean mIoU: 0.5437721610069275
+Training epoch 3:
+Loss: 0.4238688812173646     
+Mean mIoU: 0.5881645679473877
+Training epoch 4:
+Loss: 0.3788814262069505     
+Mean mIoU: 0.6202232241630554
+Validation epoch 4:
+Loss: 0.4842394246109601
+Mean mIoU: 0.5770578384399414
+Training epoch 5:
+Loss: 0.337843446895994
+Mean mIoU: 0.6485806107521057
+Training epoch 6:
+Loss: 0.31145803219285506
+Mean mIoU: 0.6674907207489014
+Validation epoch 6:
+Loss: 0.46666164953133155
+Mean mIoU: 0.5894652009010315
+Training epoch 7:
+Loss: 0.28587249024160977
+Mean mIoU: 0.6871005892753601
+Training epoch 8:
+Loss: 0.2702825221008268
+Mean mIoU: 0.6994585990905762
+Validation epoch 8:
+Loss: 0.4866038540313984
+Mean mIoU: 0.6086614727973938
+Training epoch 9:
+Loss: 0.2514377149014637
+Mean mIoU: 0.7154163718223572
+Training epoch 10:
+Loss: 0.23863967944835796
+Mean mIoU: 0.7255571484565735
+Validation epoch 10:
+Loss: 0.5168357167778344
+Mean mIoU: 0.6040266156196594
+Training epoch 11:
+Loss: 0.2298801477099287
+Mean mIoU: 0.7335304617881775
+Training epoch 12:
+Loss: 0.22153816834605974
+Mean mIoU: 0.7404282689094543
+Validation epoch 12:
+Loss: 0.5198746606193739
+Mean mIoU: 0.6100497245788574
+Training epoch 13:
+Loss: 0.21584358194778705
+Mean mIoU: 0.745734453201294
+Training epoch 14:
+Loss: 0.209867716606321
+Mean mIoU: 0.7503108382225037
+Validation epoch 14:
+Loss: 0.5148131426038414
+Mean mIoU: 0.6143295168876648
+Training epoch 15:
+Loss: 0.2052331407522333
+Mean mIoU: 0.7547540664672852
+Training epoch 16:
+Loss: 0.19825348258018494
+Mean mIoU: 0.7607989311218262
+Validation epoch 16:
+Loss: 0.5283172084339733
+Mean mIoU: 0.6162737011909485
+Training epoch 17:
+Loss: 0.19329079112102246
+Mean mIoU: 0.7654118537902832
+Training epoch 18:
+Loss: 0.1866328310349892
+Mean mIoU: 0.7713980078697205
+Validation epoch 18:
+Loss: 0.5452727218126429
+Mean mIoU: 0.6166446805000305
+Training epoch 19:
+Loss: 0.18006758237707204
+Mean mIoU: 0.7778146862983704
+Training epoch 20:
+Loss: 0.17912545697442417
+Mean mIoU: 0.7783412933349609
+Validation epoch 20:
+Loss: 0.557137998527494
+Mean mIoU: 0.6219943165779114
+Training epoch 21:
+Loss: 0.17197256226991786
+Mean mIoU: 0.7848228812217712
+Training epoch 22:
+Loss: 0.16796544374063097
+Mean mIoU: 0.7885197997093201
+Validation epoch 22:
+Loss: 0.5719358289036257
+Mean mIoU: 0.6171532273292542
+Training epoch 23:
+Loss: 0.16302221705173625
+Mean mIoU: 0.7934260964393616
+Training epoch 24:
+Loss: 0.16006841125159427
+Mean mIoU: 0.7963662147521973
+Validation epoch 24:
+Loss: 0.6099375095860712
+Mean mIoU: 0.6136428713798523
+Training epoch 25:
+Loss: 0.15794962644577026
+Mean mIoU: 0.798534095287323
+Training epoch 26:
+Loss: 0.15627440964353495
+Mean mIoU: 0.8005089163780212
+Validation epoch 26:
+Loss: 0.6473728839693398
+Mean mIoU: 0.5979812741279602
+Training epoch 27:
+Loss: 0.15287522689021868
+Mean mIoU: 0.8036558628082275
+Training epoch 28:
+Loss: 0.1467754591641755
+Mean mIoU: 0.8097237944602966
+Validation epoch 28:
+Loss: 0.6028472889086296
+Mean mIoU: 0.6241265535354614
+Training epoch 29:
+Loss: 0.14289687702368045
+Mean mIoU: 0.8139201998710632
+Training epoch 30:
+Loss: 0.14327503740787506
+Mean mIoU: 0.8131582140922546
+Validation epoch 30:
+Loss: 0.6541511205763653
+Mean mIoU: 0.6170126795768738
+Training epoch 31:
+Loss: 0.14243473523649677
+Mean mIoU: 0.8145153522491455
+Training epoch 32:
+Loss: 0.14167392639250592
+Mean mIoU: 0.8150362968444824
+Validation epoch 32:
+Loss: 0.6292378486230455
+Mean mIoU: 0.6279742121696472
+Training epoch 33:
+Loss: 0.14031358911045666
+Mean mIoU: 0.8167893886566162
+Training epoch 34:
+Loss: 0.13658714654116794
+Mean mIoU: 0.8207368850708008
+Validation epoch 34:
+Loss: 0.694385577892435
+Mean mIoU: 0.6089174151420593
+Training epoch 35:
+Loss: 0.13412848114967346
+Mean mIoU: 0.8234480023384094
+Training epoch 36:
+Loss: 0.13137685224927706
+Mean mIoU: 0.826204776763916
+Validation epoch 36:
+Loss: 0.6862181908097761
+Mean mIoU: 0.6244251132011414
+Training epoch 37:
+Loss: 0.1287367743407858
+Mean mIoU: 0.8295893669128418
+Training epoch 38:
+Loss: 0.12614759533055897
+Mean mIoU: 0.8320563435554504
+Validation epoch 38:
+Loss: 0.6734310789354916
+Mean mIoU: 0.6251172423362732
+Training epoch 39:
+Loss: 0.12565519570790487
+Mean mIoU: 0.8331010341644287
+Training epoch 40:
+Loss: 0.12591082499972706
+Mean mIoU: 0.8324994444847107
+Validation epoch 40:
+Loss: 0.7135926618658263
+Mean mIoU: 0.6191019415855408
+Validation epoch 40:
+Loss: 0.7069616071109114
+Mean mIoU: 0.6191021800041199
+wandb:
+wandb:
+wandb: Run history:
+wandb:   training_avg_loss █▆▅▅▄▄▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: validation_avg_loss ▄▂▁▁▂▂▃▂▃▃▄▄▅▆▅▆▆▇▇▇█
+wandb: validation_mean_IoU ▁▁▄▄▆▆▆▆▇▇▇▇▇▇▇▇████████▇▇▇▇██████▇▇████
+wandb:
+wandb: Run summary:
+wandb:   training_avg_loss 7.30283
+wandb: validation_avg_loss 41.38837
+wandb: validation_mean_IoU 0.6191
+wandb:
+wandb:  View run u30n242c at: https://wandb.ai/danielzab-tu-wien/DLVC/runs/u30n242c
+wandb:  View project at: https://wandb.ai/danielzab-tu-wien/DLVC
+wandb: Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20250517_175845-u30n242c\logs
