@@ -7,3 +7,5 @@ oxford
 city
 wandb
 saved_models
+*.zip
+
