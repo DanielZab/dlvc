@@ -1,0 +1,214 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Appending key for api.wandb.ai to your netrc file: C:\Users\Daniel\_netrc
+wandb: Currently logged in as: danielzab (danielzab-tu-wien) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+e:\Uni OneDrive Big Files\8. Semester\DLVC\repo\assignment_2\train_segformer.py:73: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(r"E:\Uni OneDrive Big Files\8. Semester\DLVC\repo\assignment_2\saved_models\SegFormer_model.pth", map_location='cpu')
+wandb: Tracking run with wandb version 0.19.9
+wandb: Run data is saved locally in E:\Uni OneDrive Big Files\8. Semester\DLVC\repo\assignment_2\wandb\run-20250604_152033-dzjyrsvf
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run noble-feather-39
+wandb:  View project at https://wandb.ai/danielzab-tu-wien/DLVC
+wandb:  View run at https://wandb.ai/danielzab-tu-wien/DLVC/runs/dzjyrsvf
+Training epoch 0:
+Loss: 0.29897956036288165
+Mean mIoU: 0.7060006260871887
+Validation epoch 0:
+Loss: 0.48711312485152275
+Mean mIoU: 0.5792087316513062
+Training epoch 1:
+Loss: 0.18575985190169564
+Mean mIoU: 0.7809646725654602
+Training epoch 2:
+Loss: 0.1683581417490696
+Mean mIoU: 0.7934530377388
+Validation epoch 2:
+Loss: 0.4932409679067546
+Mean mIoU: 0.6144670844078064
+Training epoch 3:
+Loss: 0.15711953542355833
+Mean mIoU: 0.8030033111572266
+Training epoch 4:
+Loss: 0.14840504963850154
+Mean mIoU: 0.8113507628440857
+Validation epoch 4:
+Loss: 0.5208649696974919
+Mean mIoU: 0.6216002106666565
+Training epoch 5:
+Loss: 0.14219182036046324
+Mean mIoU: 0.8172364234924316
+Training epoch 6:
+Loss: 0.13856946497127928
+Mean mIoU: 0.8206861019134521
+Validation epoch 6:
+Loss: 0.5312046275056642
+Mean mIoU: 0.6288521885871887
+Training epoch 7:
+Loss: 0.13609821246615772
+Mean mIoU: 0.8225013613700867
+Training epoch 8:
+Loss: 0.1324617601931095
+Mean mIoU: 0.8263230919837952
+Validation epoch 8:
+Loss: 0.5658089508270395
+Mean mIoU: 0.6263790726661682
+Training epoch 9:
+Loss: 0.13085130846192097
+Mean mIoU: 0.8279106616973877
+Training epoch 10:
+Loss: 0.1282717089714675
+Mean mIoU: 0.8302991390228271
+Validation epoch 10:
+Loss: 0.634765532510034
+Mean mIoU: 0.6142837405204773
+Training epoch 11:
+Loss: 0.12736061523700581
+Mean mIoU: 0.8315526843070984
+Training epoch 12:
+Loss: 0.12608948658252583
+Mean mIoU: 0.8320987820625305
+Validation epoch 12:
+Loss: 0.6014738411738955
+Mean mIoU: 0.6264700293540955
+Training epoch 13:
+Loss: 0.12417508571826179
+Mean mIoU: 0.8346664309501648
+Training epoch 14:
+Loss: 0.12323330162928023
+Mean mIoU: 0.8355546593666077
+Validation epoch 14:
+Loss: 0.6292835705239197
+Mean mIoU: 0.6242308020591736
+Training epoch 15:
+Loss: 0.12210034167972104
+Mean mIoU: 0.836813747882843
+Training epoch 16:
+Loss: 0.12097633822724738
+Mean mIoU: 0.8376396298408508
+Validation epoch 16:
+Loss: 0.7216164449165607
+Mean mIoU: 0.6114388108253479
+Training epoch 17:
+Loss: 0.12198790984934774
+Mean mIoU: 0.8366782665252686
+Training epoch 18:
+Loss: 0.12048519441279872
+Mean mIoU: 0.838212788105011
+Validation epoch 18:
+Loss: 0.6600398107849318
+Mean mIoU: 0.6285383105278015
+Training epoch 19:
+Loss: 0.12067013503662471
+Mean mIoU: 0.837892472743988
+Training epoch 20:
+Loss: 0.12018775503183234
+Mean mIoU: 0.8386983275413513
+Validation epoch 20:
+Loss: 0.6812935790111279
+Mean mIoU: 0.6213734149932861
+Training epoch 21:
+Loss: 0.12044005622637682
+Mean mIoU: 0.8381781578063965
+Training epoch 22:
+Loss: 0.11934323891483505
+Mean mIoU: 0.8396297097206116
+Validation epoch 22:
+Loss: 0.6907693127105976
+Mean mIoU: 0.6253853440284729
+Training epoch 23:
+Loss: 0.11789043543153796
+Mean mIoU: 0.8409889340400696
+Training epoch 24:
+Loss: 0.11782497321737223
+Mean mIoU: 0.8412759900093079
+Validation epoch 24:
+Loss: 0.863339776622838
+Mean mIoU: 0.5877919793128967
+Training epoch 25:
+Loss: 0.11838884240594404
+Mean mIoU: 0.8405880928039551
+Training epoch 26:
+Loss: 0.11785100413293674
+Mean mIoU: 0.8410044312477112
+Validation epoch 26:
+Loss: 0.7438313370120937
+Mean mIoU: 0.6160092949867249
+Training epoch 27:
+Loss: 0.11704568307975242
+Mean mIoU: 0.841858446598053
+Training epoch 28:
+Loss: 0.11705733476013973
+Mean mIoU: 0.84218430519104
+Validation epoch 28:
+Loss: 1.091623760502914
+Mean mIoU: 0.5560715794563293
+Training epoch 29:
+Loss: 0.11749986893144147
+Mean mIoU: 0.8413393497467041
+Training epoch 30:
+Loss: 0.11663375435204341
+Mean mIoU: 0.8427048325538635
+Validation epoch 30:
+Loss: 0.726115882396698
+Mean mIoU: 0.6279168725013733
+Training epoch 31:
+Loss: 0.11723645789356067
+Mean mIoU: 0.841586172580719
+Training epoch 32:
+Loss: 0.1172483375874059
+Mean mIoU: 0.8416873812675476
+Validation epoch 32:
+Loss: 0.763861553422336
+Mean mIoU: 0.6179835796356201
+Training epoch 33:
+Loss: 0.11668341272863848
+Mean mIoU: 0.8425189852714539
+Training epoch 34:
+Loss: 0.11665908234386609
+Mean mIoU: 0.8424968719482422
+Validation epoch 34:
+Loss: 0.7387759223066527
+Mean mIoU: 0.617492139339447
+Training epoch 35:
+Loss: 0.11525314005798307
+Mean mIoU: 0.8442431092262268
+Training epoch 36:
+Loss: 0.11527546880574062
+Mean mIoU: 0.8440521359443665
+Validation epoch 36:
+Loss: 0.7320179261010269
+Mean mIoU: 0.627586841583252
+Training epoch 37:
+Loss: 0.11546860391209865
+Mean mIoU: 0.84368896484375
+Training epoch 38:
+Loss: 0.11558210913991106
+Mean mIoU: 0.843842089176178
+Validation epoch 38:
+Loss: 0.7425775476570787
+Mean mIoU: 0.628139853477478
+Training epoch 39:
+Loss: 0.11567562099160819
+Mean mIoU: 0.8437976241111755
+Training epoch 40:
+Loss: 0.11357624931582089
+Mean mIoU: 0.8463940620422363
+Validation epoch 40:
+Loss: 0.7689524693735714
+Mean mIoU: 0.6260548233985901
+Validation epoch 40:
+Loss: 0.7699170050949886
+Mean mIoU: 0.6260549426078796
+wandb:
+wandb:
+wandb: Run history:
+wandb:   training_avg_loss █▄▃▃▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: validation_avg_loss ▁▁▁▂▂▃▂▃▄▃▃▃▅▄█▄▄▄▄▄▄
+wandb: validation_mean_IoU ▃▃▇▇▇▇████▇▇████▆▆██▇▇██▄▄▇▇▁▁██▇▇▇▇████
+wandb:
+wandb: Run summary:
+wandb:   training_avg_loss 6.58742
+wandb: validation_avg_loss 44.59924
+wandb: validation_mean_IoU 0.62605
+wandb:
+wandb:  View run dzjyrsvf at: https://wandb.ai/danielzab-tu-wien/DLVC/runs/dzjyrsvf
+wandb:  View project at: https://wandb.ai/danielzab-tu-wien/DLVC

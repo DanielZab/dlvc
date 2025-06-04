@@ -15,7 +15,7 @@ from dlvc.trainer import ImgSemSegTrainer
 from copy import deepcopy
 
 
-def train(dataset, num_epochs):
+def train(dataset, num_epochs, method_b=False, no_fine_tune=False):
 
     train_transform = v2.Compose([v2.ToImage(), 
                             v2.ToDtype(torch.float32, scale=True),
@@ -67,7 +67,7 @@ def train(dataset, num_epochs):
 
     model = DeepSegmenter(SegFormer(num_classes=len(train_data.classes_seg)))
     # If you are in the fine-tuning phase:
-    if dataset == 'oxford':
+    if dataset == 'oxford' and not no_fine_tune:
         ##TODO update the encoder weights of the model with the loaded weights of the pretrained model
         # e.g. load pretrained weights with: state_dict = torch.load("path to model", map_location='cpu')
         state_dict = torch.load(r"E:\Uni OneDrive Big Files\8. Semester\DLVC\repo\assignment_2\saved_models\SegFormer_model.pth", map_location='cpu')
@@ -79,8 +79,14 @@ def train(dataset, num_epochs):
                 
         model.net.encoder.load_state_dict(state_dict, strict=False)
         
+        if method_b:
+            model.net.encoder.requires_grad_(False) # freeze the encoder weights if method B is used
+        
     model.to(device)
-    optimizer = torch.optim.Adam(model.parameters())
+    if method_b and not no_fine_tune:
+        optimizer = torch.optim.Adam(model.net.decoder.parameters())
+    else:
+        optimizer = torch.optim.Adam(model.parameters())
     loss_fn = torch.nn.CrossEntropyLoss(ignore_index=255) # remember to ignore label value 255 when training with the Cityscapes datset
     
     train_metric = SegMetrics(classes=train_data.classes_seg)
@@ -114,4 +120,4 @@ if __name__ == "__main__":
     num_epochs = 41
     dataset = "oxford"
 
-    train(dataset, num_epochs)
+    train(dataset, num_epochs, method_b=False, no_fine_tune=True)

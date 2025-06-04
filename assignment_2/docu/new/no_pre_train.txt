@@ -1,0 +1,212 @@
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Appending key for api.wandb.ai to your netrc file: C:\Users\Daniel\_netrc
+wandb: Currently logged in as: danielzab (danielzab-tu-wien) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.19.9
+wandb: Run data is saved locally in E:\Uni OneDrive Big Files\8. Semester\DLVC\repo\assignment_2\wandb\run-20250604_154538-kz1o7fqi
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run fluent-meadow-40
+wandb:  View project at https://wandb.ai/danielzab-tu-wien/DLVC
+wandb:  View run at https://wandb.ai/danielzab-tu-wien/DLVC/runs/kz1o7fqi
+Training epoch 0:
+Loss: 0.7275184074352528
+Mean mIoU: 0.39824458956718445
+Validation epoch 0:
+Loss: 0.6301933866122673
+Mean mIoU: 0.43568530678749084
+Training epoch 1:
+Loss: 0.5969122730452439
+Mean mIoU: 0.4602915942668915
+Training epoch 2:
+Loss: 0.5443350765211828
+Mean mIoU: 0.49821898341178894
+Validation epoch 2:
+Loss: 0.5721286083089894
+Mean mIoU: 0.4800672233104706
+Training epoch 3:
+Loss: 0.49786155747956246
+Mean mIoU: 0.5326887965202332
+Training epoch 4:
+Loss: 0.4455503821372986
+Mean mIoU: 0.5689982771873474
+Validation epoch 4:
+Loss: 0.5070236140284045
+Mean mIoU: 0.5393050312995911
+Training epoch 5:
+Loss: 0.4014131211001298
+Mean mIoU: 0.6014557480812073
+Training epoch 6:
+Loss: 0.3637037816746482
+Mean mIoU: 0.6306893825531006
+Validation epoch 6:
+Loss: 0.5035767873813366
+Mean mIoU: 0.5534375309944153
+Training epoch 7:
+Loss: 0.338145282761804
+Mean mIoU: 0.6484379172325134
+Training epoch 8:
+Loss: 0.3119263330410267
+Mean mIoU: 0.6680803298950195
+Validation epoch 8:
+Loss: 0.5030351486699335
+Mean mIoU: 0.5793768167495728
+Training epoch 9:
+Loss: 0.2904110073015608
+Mean mIoU: 0.6833465099334717
+Training epoch 10:
+Loss: 0.26973361521959305
+Mean mIoU: 0.7005836367607117
+Validation epoch 10:
+Loss: 0.528776445265474
+Mean mIoU: 0.5888015627861023
+Training epoch 11:
+Loss: 0.2590808490740842
+Mean mIoU: 0.7097301483154297
+Training epoch 12:
+Loss: 0.24707264710089255
+Mean mIoU: 0.7185649871826172
+Validation epoch 12:
+Loss: 0.5250824098956997
+Mean mIoU: 0.5975144505500793
+Training epoch 13:
+Loss: 0.235822104945265
+Mean mIoU: 0.7283821702003479
+Training epoch 14:
+Loss: 0.22560027729848336
+Mean mIoU: 0.7377527356147766
+Validation epoch 14:
+Loss: 0.5417652674790087
+Mean mIoU: 0.5974956154823303
+Training epoch 15:
+Loss: 0.2193642184138298
+Mean mIoU: 0.7427942156791687
+Training epoch 16:
+Loss: 0.21077526206600256
+Mean mIoU: 0.7504587173461914
+Validation epoch 16:
+Loss: 0.5453113050296389
+Mean mIoU: 0.6068164706230164
+Training epoch 17:
+Loss: 0.2027818558031115
+Mean mIoU: 0.7564423084259033
+Training epoch 18:
+Loss: 0.19951795786619186
+Mean mIoU: 0.7603802680969238
+Validation epoch 18:
+Loss: 0.5900964058678726
+Mean mIoU: 0.5932576060295105
+Training epoch 19:
+Loss: 0.1973695197495921
+Mean mIoU: 0.7622529864311218
+Training epoch 20:
+Loss: 0.1911162225336864
+Mean mIoU: 0.7678819298744202
+Validation epoch 20:
+Loss: 0.5890825601487324
+Mean mIoU: 0.6051297783851624
+Training epoch 21:
+Loss: 0.18288130056241464
+Mean mIoU: 0.7753378748893738
+Training epoch 22:
+Loss: 0.1764025166630745
+Mean mIoU: 0.781463086605072
+Validation epoch 22:
+Loss: 0.6173394486821931
+Mean mIoU: 0.6086603999137878
+Training epoch 23:
+Loss: 0.1731126169706213
+Mean mIoU: 0.7843219637870789
+Training epoch 24:
+Loss: 0.17379922008719936
+Mean mIoU: 0.7838751673698425
+Validation epoch 24:
+Loss: 0.6140522535504966
+Mean mIoU: 0.6068845391273499
+Training epoch 25:
+Loss: 0.17259832728525687
+Mean mIoU: 0.7853565812110901
+Training epoch 26:
+Loss: 0.1655320854022585
+Mean mIoU: 0.7916645407676697
+Validation epoch 26:
+Loss: 0.6226663661414179
+Mean mIoU: 0.6068527102470398
+Training epoch 27:
+Loss: 0.159022670624585
+Mean mIoU: 0.7973313331604004
+Training epoch 28:
+Loss: 0.1551580089947273
+Mean mIoU: 0.801781952381134
+Validation epoch 28:
+Loss: 0.6566087439142424
+Mean mIoU: 0.613209068775177
+Training epoch 29:
+Loss: 0.15393150417969145
+Mean mIoU: 0.8026590347290039
+Training epoch 30:
+Loss: 0.15166494918280635
+Mean mIoU: 0.805352509021759
+Validation epoch 30:
+Loss: 0.6489707293181584
+Mean mIoU: 0.6123033165931702
+Training epoch 31:
+Loss: 0.14608020540969124
+Mean mIoU: 0.8108674883842468
+Training epoch 32:
+Loss: 0.14381581287959527
+Mean mIoU: 0.812934935092926
+Validation epoch 32:
+Loss: 0.6800157458617769
+Mean mIoU: 0.6057450771331787
+Training epoch 33:
+Loss: 0.14440503665085497
+Mean mIoU: 0.8130932450294495
+Training epoch 34:
+Loss: 0.14594882032994566
+Mean mIoU: 0.8111212849617004
+Validation epoch 34:
+Loss: 0.7049046189620577
+Mean mIoU: 0.6126795411109924
+Training epoch 35:
+Loss: 0.14460074130831094
+Mean mIoU: 0.8126401901245117
+Training epoch 36:
+Loss: 0.1426940832672448
+Mean mIoU: 0.8148425221443176
+Validation epoch 36:
+Loss: 0.6545872595803491
+Mean mIoU: 0.6179750561714172
+Training epoch 37:
+Loss: 0.13830814741808792
+Mean mIoU: 0.8192502856254578
+Training epoch 38:
+Loss: 0.13339892350907984
+Mean mIoU: 0.824302613735199
+Validation epoch 38:
+Loss: 0.6974079732237191
+Mean mIoU: 0.605137288570404
+Training epoch 39:
+Loss: 0.1277003361490266
+Mean mIoU: 0.830056369304657
+Training epoch 40:
+Loss: 0.12681728588609859
+Mean mIoU: 0.8311007618904114
+Validation epoch 40:
+Loss: 0.798506203396567
+Mean mIoU: 0.5868218541145325
+Validation epoch 40:
+Loss: 0.797363927652096
+Mean mIoU: 0.586821973323822
+wandb:
+wandb:
+wandb: Run history:
+wandb:   training_avg_loss █▆▆▅▅▄▄▃▃▃▃▃▂▂▂▂▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: validation_avg_loss ▄▃▁▁▁▂▂▂▂▃▃▄▄▄▅▄▅▆▅▆█
+wandb: validation_mean_IoU ▁▁▃▃▅▅▆▆▇▇▇▇▇▇▇▇██▇▇███████████████████▇
+wandb:
+wandb: Run summary:
+wandb:   training_avg_loss 7.3554
+wandb: validation_avg_loss 46.31336
+wandb: validation_mean_IoU 0.58682
+wandb:
+wandb:  View run kz1o7fqi at: https://wandb.ai/danielzab-tu-wien/DLVC/runs/kz1o7fqi
+wandb:  View project at: https://wandb.ai/danielzab-tu-wien/DLVC
